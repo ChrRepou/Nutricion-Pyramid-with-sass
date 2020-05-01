@@ -1,0 +1,43 @@
+main .bottom, main .level-4, main .level-3, main .level-2, main .level-1, main .top-1, main .top {
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  height: 0;
+  margin: auto;
+}
+main .bottom p, main .level-4 p, main .level-3 p, main .level-2 p, main .level-1 p, main .top-1 p, main .top p {
+  margin-top: 0px;
+  text-align: center;
+  font-size: 120%;
+}
+
+main .top {
+  width: 0;
+  border-bottom: 65px solid red;
+  color: white;
+}
+main .top-1 {
+  border-bottom: 65px solid red;
+  width: 140px;
+}
+main .level-1 {
+  border-bottom: 65px solid orange;
+  width: 280px;
+}
+main .level-2 {
+  border-bottom: 65px solid yellow;
+  width: 420px;
+}
+main .level-3 {
+  border-bottom: 65px solid blue;
+  width: 560px;
+}
+main .level-4 {
+  border-bottom: 65px solid brown;
+  width: 700px;
+}
+main .bottom {
+  border-bottom: 65px solid green;
+  width: 840px;
+}
+
+/*# sourceMappingURL=style.css.map */
